@@ -3,7 +3,7 @@
 #include <conio.h>
 #include "pila.h"
 #include <time.h>
-
+//prueba de gitttttttttttttttttttttttttttttttttttt
 #define ESC 27
 
 //Prototipado.
@@ -34,7 +34,7 @@ int buscaNumeroPila(Pila p, int num);
 //Cuerpo main.
 int main()
 {
-    srand(time(NULL));  // Inicializar la semilla para números aleatorios
+    srand(time(NULL));  // Inicializar la semilla para nÃºmeros aleatorios
     Pila dada;
     Pila destino;
     inicpila(&dada);
@@ -213,11 +213,11 @@ int main()
 
             if (encontrado == 1)
             {
-                printf("\nEl número %d se encuentra en la pila\n", num); //si encontrado devuelve 1 imprime que esta.
+                printf("\nEl nÃºmero %d se encuentra en la pila\n", num); //si encontrado devuelve 1 imprime que esta.
             }
             else
             {
-                printf("\nEl número %d no se encuentra en la pila\n", num); //si encontrado devuelve 1 imprime que NO esta.
+                printf("\nEl nÃºmero %d no se encuentra en la pila\n", num); //si encontrado devuelve 1 imprime que NO esta.
             }
         }
         break;
@@ -245,13 +245,13 @@ void optionMenu()
     printf("\n5-Muestra pila\n");
     printf("\n6-Pasar pila\n");
     printf("\n7-Pasar pila en orden \n");
-    printf("\n8- Hacer una función que encuentre el menor elemento de una pila y lo retorna. La misma debe eliminar ese dato de la pila\n");
-    printf("\n9- Hacer una función que pase los elementos de una pila a otra, de manera que se genere una nueva pila ordenada. Usar la función del ejercicio 4. (Ordenamiento por selección)");
-    printf("\n10- Hacer una función que inserta en una pila ordenada un nuevo elemento, conservando el orden de ésta.\n");
-    printf("\n11- Hacer una función que pase los elementos de una pila a otra, de manera que se genere una nueva pila ordenada. Usar la función del ejercicio 6. (Ordenamiento por inserción)\n");
-    printf("\n12- Hacer una función que calcule el promedio de los elementos de una pila, para ello hacer también una función que calcule la suma, otra para la cuenta y otra que divida. En total son cuatro funciones, y la función que calcula el promedio invoca a las otras 3\n");
-    printf("\n13- Hacer una función que reciba una pila con números de un solo dígito (es responsabilidad de quien usa el programa) y que transforme esos dígitos en un número decimal.\n");
-    printf("\n14- Hacer función que retome cuántos dígitos tiene un número ingresado\n");
+    printf("\n8- Hacer una funciÃ³n que encuentre el menor elemento de una pila y lo retorna. La misma debe eliminar ese dato de la pila\n");
+    printf("\n9- Hacer una funciÃ³n que pase los elementos de una pila a otra, de manera que se genere una nueva pila ordenada. Usar la funciÃ³n del ejercicio 4. (Ordenamiento por selecciÃ³n)");
+    printf("\n10- Hacer una funciÃ³n que inserta en una pila ordenada un nuevo elemento, conservando el orden de Ã©sta.\n");
+    printf("\n11- Hacer una funciÃ³n que pase los elementos de una pila a otra, de manera que se genere una nueva pila ordenada. Usar la funciÃ³n del ejercicio 6. (Ordenamiento por inserciÃ³n)\n");
+    printf("\n12- Hacer una funciÃ³n que calcule el promedio de los elementos de una pila, para ello hacer tambiÃ©n una funciÃ³n que calcule la suma, otra para la cuenta y otra que divida. En total son cuatro funciones, y la funciÃ³n que calcula el promedio invoca a las otras 3\n");
+    printf("\n13- Hacer una funciÃ³n que reciba una pila con nÃºmeros de un solo dÃ­gito (es responsabilidad de quien usa el programa) y que transforme esos dÃ­gitos en un nÃºmero decimal.\n");
+    printf("\n14- Hacer funciÃ³n que retome cuÃ¡ntos dÃ­gitos tiene un nÃºmero ingresado\n");
     printf("\n15- Buscar un numero en una pila\n");
 
 
@@ -404,8 +404,8 @@ void insertPilaOrdenada(Pila *p) //ingresa uno o varios datos de manera manual y
 void unirPilasEnOrden (Pila *origen, Pila *destino) // pasa una pila a otra y la ordena de menor a mayor a medida que va cargando la pila.
 {
 
-//7. Hacer una función que pase los elementos de una pila a otra, de manera que se genere una
-//nueva pila ordenada. Usar la función del ejercicio 6. (Ordenamiento por inserción)
+//7. Hacer una funciÃ³n que pase los elementos de una pila a otra, de manera que se genere una
+//nueva pila ordenada. Usar la funciÃ³n del ejercicio 6. (Ordenamiento por inserciÃ³n)
 
     while(!pilavacia (origen))
     {
@@ -434,7 +434,7 @@ int buscaMenor(Pila *p) // busca el menor en una pila.
 {
     if (pilavacia(p))
     {
-        printf("La pila está vacía, no hay menor.\n");
+        printf("La pila estÃ¡ vacÃ­a, no hay menor.\n");
         return -1; // Retorno de error
     }
 
@@ -483,12 +483,12 @@ int DigitosNum(int num)// cuenta cuantos digitos tiene un numero ingresado. se d
 
     if (num == 0)
     {
-        return 1; // El número 0 tiene 1 dígito. digitos retorna como 1.
+        return 1; // El nÃºmero 0 tiene 1 dÃ­gito. digitos retorna como 1.
     }
 
     if (num < 0)
     {
-        num = -num; // Convertimos a positivo para contar los dígitos correctamente.
+        num = -num; // Convertimos a positivo para contar los dÃ­gitos correctamente.
     }
 
     int digitos = 0;// se vuelve a declarar como entero .siempre inicializar en 0.
@@ -558,7 +558,7 @@ int buscaNumeroPila(Pila p, int num) //busca un numero en la pila y devuelve un 
     // Restaurar la pila original
     pasapila(&aux, &p);
 
-    return encontrado; //si se encuentra el numero buscado en la pila encontrado va cambiar a 1, si se vacio la pila y no estaba el n° encontrado queda en 0 como esta al inicio.
+    return encontrado; //si se encuentra el numero buscado en la pila encontrado va cambiar a 1, si se vacio la pila y no estaba el nÂ° encontrado queda en 0 como esta al inicio.
 
 }
 
