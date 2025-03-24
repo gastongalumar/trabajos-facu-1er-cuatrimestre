@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1742327682 source:c:\users\casa-pc\desktop\tps facultad\funciones 18-3\pila.c
+	"pila.h"
+
+1490112218 c:\users\casa-pc\desktop\tps facultad\funciones 18-3\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1742424617 source:c:\users\casa-pc\desktop\tps facultad\funciones 18-3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pila.h"
+	<time.h>
+
+1742424618 source:c:\users\usuario\desktop\funciones 18-3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pila.h"
+	<time.h>
+
+1490112218 c:\users\usuario\desktop\funciones 18-3\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1742327684 source:c:\users\usuario\desktop\funciones 18-3\pila.c
+	"pila.h"
+
+1742327684 source:c:\users\casa-pc\desktop\programacion utn\programacion i\trabajos facultad\tps facultad\tp 2 funciones 18-3\funciones 18-3\pila.c
+	"pila.h"
+
+1490112218 c:\users\casa-pc\desktop\programacion utn\programacion i\trabajos facultad\tps facultad\tp 2 funciones 18-3\funciones 18-3\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1742586971 source:c:\users\casa-pc\desktop\programacion utn\programacion i\trabajos facultad\tps facultad\tp 2 funciones 18-3\funciones 18-3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pila.h"
+	<time.h>
+
+1742327684 source:c:\users\user\desktop\programacion utn\programacion i\trabajos facultad\tps facultad\tp 2 funciones 18-3\funciones 18-3\pila.c
+	"pila.h"
+
+1490112218 c:\users\user\desktop\programacion utn\programacion i\trabajos facultad\tps facultad\tp 2 funciones 18-3\funciones 18-3\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1742327684 source:c:\users\user\desktop\tecnicatura en programacion\programacion i\trabajos facultad\tps facultad\tp 2 funciones 18-3\funciones 18-3\pila.c
+	"pila.h"
+
+1490112218 c:\users\user\desktop\tecnicatura en programacion\programacion i\trabajos facultad\tps facultad\tp 2 funciones 18-3\funciones 18-3\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1742836358 source:c:\users\user\desktop\tecnicatura en programacion\programacion i\trabajos facultad\tps facultad\tp 2 funciones 18-3\funciones 18-3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pila.h"
+	<time.h>
+
+1742839922 source:c:\users\user\desktop\funciones 24-3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pila.h"
+	<time.h>
+
+1490112218 c:\users\user\desktop\funciones 24-3\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1742327684 source:c:\users\user\desktop\funciones 24-3\pila.c
+	"pila.h"
+
